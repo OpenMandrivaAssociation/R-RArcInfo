@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.4_12
+Version:          0.4.12
 Release:          1
 Summary:          Functions to import data from Arc/Info V7.x binary coverages
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.4-12.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/RArcInfo_0.4-12.tar.gz
 Requires:         R-RColorBrewer 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-RColorBrewer
 
@@ -43,3 +43,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/exampleData
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
