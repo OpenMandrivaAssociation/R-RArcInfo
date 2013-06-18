@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.4_12
-Release:          1
+Release:          2
 Summary:          Functions to import data from Arc/Info V7.x binary coverages
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
