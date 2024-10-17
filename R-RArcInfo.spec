@@ -7,7 +7,7 @@ Release:          2
 Summary:          Functions to import data from Arc/Info V7.x binary coverages
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.4-12.tar.gz
 Requires:         R-RColorBrewer 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-RColorBrewer
